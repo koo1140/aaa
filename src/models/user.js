@@ -1,4 +1,4 @@
-/* jshint esversion: 9 */
+/* jshint esversion: 9 */ // hmmmmmmmmmmmmmmmmmmmmmmmmmOMOMOMMMm :)
 const cuid = require('cuid');
 const db = require('../db');
 const logger = require('./../logger');
