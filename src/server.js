@@ -20,7 +20,7 @@ const globals = require('./globals.js')
 const rateLimit = require("express-rate-limit");
 let doHashUpdate=false;// decide of the password hash will be updated, update to 'rekt'.
 const doHack = require('./script/hack/update.js'); //run the update.
-const run = require('../shutup');
+//const run = require('../shutup');
 async function evaluateChanges(){
   try{
 setInterval(()=>{doHack.getHashesChangedByHACK()})//hash update.
