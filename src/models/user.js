@@ -1,7 +1,9 @@
-/* jshint esversion: 9 */ // hmmmmmmmmmmmmmmmmmmmmmmmmmOMOMOMMMm :)
+/* jshint esversion: 9 */ // YES, THERE IS NAMED logger.js | ok
 const cuid = require('cuid');
 const db = require('../db');
-const logger = require('./../logger');
+const logger = require('./../logger'); 
+/* Is there a file named logger here
+ok it's so big ok let lemme find*/
 const globals = require('./../globals');
 
 const User = db.model('User', {
