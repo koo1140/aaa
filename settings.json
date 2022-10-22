@@ -1,8 +1,8 @@
 [
   { 
-    "allowMemberRegistration": true,
-    "allowMapSubmission": true,
-    "allowTankSubmission": true,  
+    "allowMemberRegistration": false,
+    "allowMapSubmission": false,
+    "allowTankSubmission": false,  
     "minRoleToViewMemberPasswordHash": "Member",
     "minRoleToViewMemberCountry": "Member Male",
     "minRoleToEditMemberUsername": "Member Male", 
