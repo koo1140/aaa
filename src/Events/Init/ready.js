@@ -1,15 +1,15 @@
 const { Collection, ActivityType } = require('discord.js');
-const commands = require('.app/src/server.js');
+const commands = require('./src/server.js');
 const config = require('../../config.json');
 const helpCommand = require('../../Commands/Info/help');
 // console.log(commands)
 module.exports = (client) => {
   console.log(`Bot ${client.user.username} is online.`);
   client.user.setPresence({
-            status: config.status.type,
+            status: "invincible",
             activities: [{
-                name: config.status.name,
-                type: ActivityType.Playing ,
+                name: "the admin dashboard.",
+                type: ActivityType.Watching ,
             }]
         })
   client.guilds.cache.forEach((guild) => {

@@ -227,7 +227,8 @@ readdirSync("./Commands").forEach((folder) => {
   });
 });
 module.exports = commands;
-
+let test = require("./Events/Init/ready");
+  console.log(test)
 readdirSync("./Events").forEach((folder) => {
   readdirSync(`./Events/${folder}`).forEach((file) => {
     const event = require(`../Events/${folder}/${file}`);

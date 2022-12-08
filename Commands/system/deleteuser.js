@@ -3,15 +3,15 @@ const { SlashCommandBuilder, EmbedBuilder } = require("@discordjs/builders");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("execute")
-    .setDescription(`Executes a chosen command on the mexar server.`)
+    .setName("removeuser")
+    .setDescription(`Deletes an user from the dashboard`)
     .addStringOption((option) =>
       option
-        .setName("password")
-        .setDescription(`The password to verify authentication.`)
+        .setName("username")
+        .setDescription(`The username of the user you want to delete.`)
         .setRequired(true)
     ),
   async execute(interaction) {
-    let password = interaction.options.getString("password");
+    let username = interaction.options.getString("username");
   }
 };
