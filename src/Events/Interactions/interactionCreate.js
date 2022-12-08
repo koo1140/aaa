@@ -1,5 +1,3 @@
-const Keyv = require('keyv');
-const disabledCmds = new Keyv(process.env.disabledcmds);
 
 module.exports = async (client, interaction) => {
   if (interaction.isCommand()) {
@@ -7,10 +5,6 @@ module.exports = async (client, interaction) => {
     if (!command) return;
 
     let err = 0;
-    const disabledCommands = await disabledCmds.get(interaction.guild.id);
-    if (disabledCommands && disabledCommands.includes(command.data.name)) {
-      return interaction.reply({ content: `This command is currently disabled on this server.`, ephemeral: true });
-    }
 
     if (command.requiredPerms) {
       command.requiredPerms.forEach(async (perm) => {

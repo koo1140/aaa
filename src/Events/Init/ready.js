@@ -1,5 +1,5 @@
 const { Collection, ActivityType } = require('discord.js');
-const commands = require('../src/server');
+const commands = require('.app/src/server.js');
 const config = require('../../config.json');
 const helpCommand = require('../../Commands/Info/help');
 // console.log(commands)
