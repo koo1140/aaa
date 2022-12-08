@@ -16,7 +16,7 @@ module.exports = {
     DeveloperRole: "Developer",
     DeveloperRoleValue: 1010,
 
-    DefaultMemberStatus: "Active",
+    DefaultMemberStatus: "Inactive",
     ValidMemberStatuses: [
         "Active",
         "Inactive",
