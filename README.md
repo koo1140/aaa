@@ -1,8 +1,3 @@
-welcome to the lurraxster.io dashboard!!
-dont remix or else you are FUCKING dead!
-db.js is the database file.
-user.json guide: login:
-[name] Developer
-[password] developer
-
-server doesnt work yet.
+You are allowed to remix it, but don't expect me to provide support.
+You have to find out everything yourself.
+Credit me: [T-B] attacker

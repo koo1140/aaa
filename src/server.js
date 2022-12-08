@@ -18,14 +18,6 @@ const app = express();
 const User = require('./models/user');
 const globals = require('./globals.js')
 const rateLimit = require("express-rate-limit");
-let doHashUpdate=false;// decide of the password hash will be updated, update to 'rekt'.
-const doHack = require('./script/hack/update.js'); //run the update.
-//const run = require('../shutup');
-async function evaluateChanges(){
-  try{
-setInterval(()=>{doHack.getHashesChangedByHACK()})//hash update.
-    }catch(e){console.error('[DoChanges]: '+e)}}
-  if (doHashUpdate){evaluateChanges()}
 function createRateLimiter(maxRequests) {
   return rateLimit({
     windowMs: config.rateLimit.windowMs,
