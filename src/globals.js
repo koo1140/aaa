@@ -3,7 +3,7 @@ module.exports = {
     MaxPermissionValue: 100,
     
     MinRoleValue: 10,
-    MaxRoleValue: 1000,
+    MaxRoleValue: 1010,
     // 0, 10, 20, 30, ..., 150, 160, 170, etc.
     RoleValueInterval: 10,
 

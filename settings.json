@@ -11,7 +11,7 @@
     "minRoleToEditMemberStatus": "Admin",      
     "minRoleToDeleteMember": "Admin",
     "minRoleToManageRole": "Admin", 
-    "minRoleToDeleteRole": "", 
-    "minRoleToEditSettings": "Member Male"
+    "minRoleToDeleteRole": "Owner", 
+    "minRoleToEditSettings": "Owner"
   }  
 ]      
