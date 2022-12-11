@@ -65,7 +65,7 @@ app.use(cookieParser());
 // ===================================================================
   const expressip = require('express-ip');
 app.use(expressip().getIpInfoMiddleware);
-  if (config.lockdown === false) {
+  if (config.lockdown == false) {
 app.get('/', auth.ensureGuest, api.getLoginPage);
 app.get('/login', api.getLoginPage);
 app.post('/login', createRateLimiter(20), auth.authenticate);
