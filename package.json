@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server"
   },
-   "engines": {
+  "engines": {
     "node": "16.x"
   },
   "keywords": [],
