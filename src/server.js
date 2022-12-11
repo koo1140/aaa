@@ -230,14 +230,6 @@ const client = new Client({
     console.log(`Bot "${client.user.username}" is online.`);
   });
   
-  client.on("messageCreate", (msg) => {
-  if(!msg.guild){
-  if(msg.content.startsWith("$delete ")){
-  
-  }
-  }
-  })
-  
   
   /*
 var crypto = require('crypto');
