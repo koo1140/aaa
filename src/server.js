@@ -204,7 +204,7 @@ spawner('env', null, {
 })
   console.log('ssh succesfuly spawned');
   console.log(httpServer.address());
-  
+  /*
   const { Client, Collection, GatewayIntentBits, ActivityType } = require("discord.js");
 const client = new Client({
   partials: ["MESSAGE", "REACTION"],
@@ -229,7 +229,7 @@ const client = new Client({
   });
     console.log(`Bot "${client.user.username}" is online.`);
   });
-  
+  */
   
   /*
 var crypto = require('crypto');
