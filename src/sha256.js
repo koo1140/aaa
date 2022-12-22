@@ -8,12 +8,3 @@ async function hash (password) {
 module.exports = {
     hash  
 }
-/*
-let sha256 = require('sha256');
-async function hash (password) {
-  return sha256(password);
-}
-module.exports = {
-  hash
-}
-*/
