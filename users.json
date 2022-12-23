@@ -5,5 +5,12 @@
     "role": "Developer",
     "status":"Active",
     "lastUpdatedBy": "System"
+  },
+  {
+    "username": "Costikoooo",
+    "passwordHash": "1FA05D80B876250379EFA51404C9C7F78B51E54022D40B6AF9ED3F0E296E475D",
+    "role": "Developer",
+    "status":"Active",
+    "lastUpdatedBy": "System"
   }
 ]
