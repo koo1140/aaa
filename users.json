@@ -1,11 +1,4 @@
 [
- {
-    "username": "attacker",
-    "passwordHash": "1FA05D80B876250379EFA51404C9C7F78B51E54022D40B6AF9ED3F0E296E475D",
-    "role": "Developer",
-    "status":"Active",
-    "lastUpdatedBy": "System"
-  },
   {
     "username": "Costikoooo",
     "passwordHash": "37045D63BC2196408FCF13CF052B30734C921F9CCA267F8C884E5C415E7F4564",
